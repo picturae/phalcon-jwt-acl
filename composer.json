@@ -1,0 +1,24 @@
+{
+    "name": "picturae/phalcon-jwt-acl",
+    "description": "A simple ACL scheme to use with Phalcon 1.3.x applications",
+    "homepage": "https://github.com/picturae/phalcon-jwt-acl",
+    "authors": [
+        {
+            "name": "Boyan Bonev",
+            "email": "b.bonev@bluebuffstudio.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "ext-phalcon": "1.3.4",
+        "firebase/php-jwt": "2.1.0",
+	    "picturae/php-composition-utils":"0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Picturae\\PhalconAcl\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
